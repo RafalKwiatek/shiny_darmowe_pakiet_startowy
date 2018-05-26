@@ -1,16 +1,16 @@
 ################################################################################
-# Statyczny wykres ggplot2
+# A static ggplot2 plot
 ################################################################################
 
-# wykonanie kodu z pliku global.R
+# Execute code in global.R
 # source("global.R")
 
-# agregacja danych 
+# Aggregate data
 aggDelayFlights <- modFlights %>% 
   group_by(hour) %>% 
   summarise(delayed_flight_perc = sum(dep_delay > 0) / n())
 
-# tworzenie wykresu
+# Create a plot
 ggplot(aggDelayFlights, aes(hour, delayed_flight_perc)) + 
     geom_col(position = 'dodge') +
     theme_hc(base_size = 18) + 

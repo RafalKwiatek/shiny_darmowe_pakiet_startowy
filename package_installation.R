@@ -1,5 +1,5 @@
 ################################################################################
-# Darmowe szkolenie z Shiny - Instalacja niezbędnych pakietów
+# Installation of required packages
 ################################################################################
 
 install.packages("shiny")

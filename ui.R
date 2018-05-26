@@ -1,5 +1,5 @@
 ################################################################################
-# Plik zawierający kod interfejsu użytkownika
+# A file including user interface (UI) code
 ################################################################################
 
 fluidPage(

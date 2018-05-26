@@ -1,5 +1,5 @@
 ################################################################################
-# Plik zawierający kod logiki aplikacji (serwera)
+# A file including backend code (server) 
 ################################################################################
 
 shinyServer(function(input, output, session) {

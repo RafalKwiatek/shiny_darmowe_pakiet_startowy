@@ -1,5 +1,5 @@
 
-Pakiety potrzebne podczas szkolenia można zainstalować wykonując sekwencję komend:
+Required packages might be installed by executing the code below:
 
 ```r
 install.packages("shiny")
